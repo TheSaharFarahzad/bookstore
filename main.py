@@ -31,12 +31,24 @@ class Book:
             books = list(reader)
 
         for book in books:
-            print(book)
             Book(
                 title=book.get("Title"),
                 price=float(book.get("Price")),
                 quantity=int(book.get("Quantity")),
             )
 
+    @staticmethod
+    def is_integer(num):
+        if isinstance(num, float):
+            return num.is_integer()
+        elif isinstance(num, int):
+            return True
+        else:
+            return False
+
 
 Book.instantiate_from_csv()
+
+print(Book.is_integer(7))  # True
+print(Book.is_integer(7.0))  # True
+print(Book.is_integer(7.5))  # False

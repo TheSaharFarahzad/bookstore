@@ -14,6 +14,7 @@ You can access each version of the code by clicking on the title below:
 - [Add and use class attributes](https://github.com/TheSaharFarahzad/bookstore/tree/v8)
 - [Tracking and managing of all class instances](https://github.com/TheSaharFarahzad/bookstore/tree/v9)
 - [Handling data with CSV files](https://github.com/TheSaharFarahzad/bookstore/tree/v10)
+- [Add a static method](https://github.com/TheSaharFarahzad/bookstore/tree/v11)
 
 ## Cloning the Repository
 Clone this repository to your local machine using:
