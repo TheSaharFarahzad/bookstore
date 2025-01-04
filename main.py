@@ -1,16 +1,20 @@
 class Book:
+    def __init__(self, title, price, quantity):
+        self.title = title
+        self.price = price
+        self.quantity = quantity
+
     def calculate_total_price(self, x, y):
         return x * y
 
 
-book1 = Book()
-book1.title = "Learning Python"
-book1.price = 10
-book1.quantity = 5
-print(book1.calculate_total_price(book1.price, book1.quantity))  # Output: 50
+book1 = Book("Learning Python", 10, 5)
+book2 = Book("Two Scoops of Django", 30, 10)
 
-book2 = Book()
-book2.title = "Two Scoops of Django"
-book2.price = 30
-book2.quantity = 10
-print(book2.calculate_total_price(book2.price, book2.quantity))  # Output: 300
+print(book1.title)  # Output: Learning Python
+print(book1.price)  # Output: 10
+print(book1.quantity)  # Output: 5
+
+print(book2.title)  # Output: Two Scoops of Django
+print(book2.price)  # Output: 30
+print(book2.quantity)  # Output: 10
