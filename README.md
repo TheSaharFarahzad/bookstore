@@ -6,6 +6,7 @@ You can access each version of the code by clicking on the title below:
 
 - [Add a simple script to demonstrate Python data types](https://github.com/TheSaharFarahzad/bookstore/tree/v1)
 - [Add a simple class to represent a book](https://github.com/TheSaharFarahzad/bookstore/tree/v2)
+- [Add a method to calculate the total price of a book](https://github.com/TheSaharFarahzad/bookstore/tree/v3)
 
 ## Cloning the Repository
 Clone this repository to your local machine using:
