@@ -17,6 +17,7 @@ You can access each version of the code by clicking on the title below:
 - [Add a static method](https://github.com/TheSaharFarahzad/bookstore/tree/v11)
 - [Add PrintedBook class inheriting from Book class](https://github.com/TheSaharFarahzad/bookstore/tree/v12)
 - [Organizing code into multiple files](https://github.com/TheSaharFarahzad/bookstore/tree/v13)
+- [Add getter and setter for title attribute](https://github.com/TheSaharFarahzad/bookstore/tree/v14)
 
 ## Cloning the Repository
 Clone this repository to your local machine using:
