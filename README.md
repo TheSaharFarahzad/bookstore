@@ -11,6 +11,7 @@ You can access each version of the code by clicking on the title below:
 - [Refactor to use instance attributes](https://github.com/TheSaharFarahzad/bookstore/tree/v5)
 - [Add default parameter](https://github.com/TheSaharFarahzad/bookstore/tree/v6)
 - [Add type hints and enforce data validation](https://github.com/TheSaharFarahzad/bookstore/tree/v7)
+- [Add and use class attributes](https://github.com/TheSaharFarahzad/bookstore/tree/v8)
 
 ## Cloning the Repository
 Clone this repository to your local machine using:
