@@ -15,6 +15,7 @@ You can access each version of the code by clicking on the title below:
 - [Tracking and managing of all class instances](https://github.com/TheSaharFarahzad/bookstore/tree/v9)
 - [Handling data with CSV files](https://github.com/TheSaharFarahzad/bookstore/tree/v10)
 - [Add a static method](https://github.com/TheSaharFarahzad/bookstore/tree/v11)
+- [Add PrintedBook class inheriting from Book class](https://github.com/TheSaharFarahzad/bookstore/tree/v12)
 
 ## Cloning the Repository
 Clone this repository to your local machine using:

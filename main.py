@@ -22,7 +22,9 @@ class Book:
         self.price = self.price * (1 - self.discount_rate)
 
     def __repr__(self):
-        return f"Book('{self.title}', {self.price}, {self.quantity})"
+        return (
+            f"{self.__class__.__name__}('{self.title}', {self.price}, {self.quantity})"
+        )
 
     @classmethod
     def instantiate_from_csv(cls):
@@ -47,8 +49,19 @@ class Book:
             return False
 
 
-Book.instantiate_from_csv()
+class PrintedBook(Book):
+    def __init__(self, title: str, price: float, quantity=0, damaged_copies=0):
+        super().__init__(title, price, quantity)
 
-print(Book.is_integer(7))  # True
-print(Book.is_integer(7.0))  # True
-print(Book.is_integer(7.5))  # False
+        assert (
+            damaged_copies >= 0
+        ), f"Damaged copies {damaged_copies} is not greater or equal to zero"
+
+        self.damaged_copies = damaged_copies
+
+
+printed_book1 = PrintedBook("Introduction to Algorithms", 25, 7, 1)
+printed_book2 = PrintedBook("Advanced Data Structures", 40, 3, 2)
+
+print(Book.all)
+print(PrintedBook.all)
