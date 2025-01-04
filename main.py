@@ -1,3 +1,6 @@
+import csv
+
+
 class Book:
     all = []
     discount_rate = 0.2
@@ -21,13 +24,19 @@ class Book:
     def __repr__(self):
         return f"Book('{self.title}', {self.price}, {self.quantity})"
 
+    @classmethod
+    def instantiate_from_csv(cls):
+        with open("books.csv", "r") as f:
+            reader = csv.DictReader(f)
+            books = list(reader)
 
-book1 = Book("Learning Python", 10, 5)
-book2 = Book("Two Scoops of Django", 30, 10)
-book3 = Book("Clean Code", 25, 7)
-book4 = Book("Design Patterns in Python", 40, 3)
-book5 = Book("Fluent Python", 60, 2)
+        for book in books:
+            print(book)
+            Book(
+                title=book.get("Title"),
+                price=float(book.get("Price")),
+                quantity=int(book.get("Quantity")),
+            )
 
 
-for instance in Book.all:
-    print(instance.title)
+Book.instantiate_from_csv()

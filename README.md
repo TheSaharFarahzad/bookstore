@@ -13,6 +13,7 @@ You can access each version of the code by clicking on the title below:
 - [Add type hints and enforce data validation](https://github.com/TheSaharFarahzad/bookstore/tree/v7)
 - [Add and use class attributes](https://github.com/TheSaharFarahzad/bookstore/tree/v8)
 - [Tracking and managing of all class instances](https://github.com/TheSaharFarahzad/bookstore/tree/v9)
+- [Handling data with CSV files](https://github.com/TheSaharFarahzad/bookstore/tree/v10)
 
 ## Cloning the Repository
 Clone this repository to your local machine using:
