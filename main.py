@@ -1,11 +1,11 @@
 from book import Book
-from printed_book import PrintedBook
 
+book1 = Book("Python Basics", 75)
 
-book1 = Book("short", 10)  # Initialize with a short title
-print(book1.title)  # Output: short
+print(book1.price)  # Output: 75
 
-book1.title = "acceptable"  # New title, length is <= 10
-print(book1.title)  # Output: acceptable
+book1.apply_discount(0.2)
+print(book1.price)  # Output: 60.0 (20% discount applied)
 
-book1.title = "this_title_is_too_long"  # Raises Exception: The title is too long
+book1.apply_increment(0.1)
+print(book1.price)  # Output: 66.0 (10% increment applied)

@@ -10,10 +10,14 @@ class Book:
         assert quantity >= 0, f"Quantity {quantity} is not greater or equal to zero"
 
         self.__title = title
-        self.price = price
+        self.__price = price
         self.quantity = quantity
 
         Book.all.append(self)
+
+    @property
+    def price(self):
+        return self.__price
 
     @property
     def title(self):
@@ -27,15 +31,22 @@ class Book:
             self.__title = value
 
     def calculate_total_price(self):
-        return self.price * self.quantity
+        return self.__price * self.quantity
 
-    def apply_discount(self):
-        self.price = self.price * (1 - self.discount_rate)
+    def apply_discount(self, discount_rate: float):
+        if 0 <= discount_rate <= 1:
+            self.__price = self.__price * (1 - discount_rate)
+        else:
+            raise ValueError("Discount rate must be between 0 and 1.")
+
+    def apply_increment(self, increment_rate: float):
+        if increment_rate > 0:
+            self.__price = self.__price * (1 + increment_rate)
+        else:
+            raise ValueError("Increment rate must be positive.")
 
     def __repr__(self):
-        return (
-            f"{self.__class__.__name__}('{self.title}', {self.price}, {self.quantity})"
-        )
+        return f"{self.__class__.__name__}('{self.title}', {self.__price}, {self.quantity})"
 
     @classmethod
     def instantiate_from_csv(cls):

@@ -18,6 +18,8 @@ You can access each version of the code by clicking on the title below:
 - [Add PrintedBook class inheriting from Book class](https://github.com/TheSaharFarahzad/bookstore/tree/v12)
 - [Organizing code into multiple files](https://github.com/TheSaharFarahzad/bookstore/tree/v13)
 - [Add getter and setter for title attribute](https://github.com/TheSaharFarahzad/bookstore/tree/v14)
+- [Implement encapsulation to price attribute](https://github.com/TheSaharFarahzad/bookstore/tree/v15)
+
 
 ## Cloning the Repository
 Clone this repository to your local machine using:
