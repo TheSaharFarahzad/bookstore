@@ -20,6 +20,7 @@ You can access each version of the code by clicking on the title below:
 - [Add getter and setter for title attribute](https://github.com/TheSaharFarahzad/bookstore/tree/v14)
 - [Implement encapsulation to price attribute](https://github.com/TheSaharFarahzad/bookstore/tree/v15)
 - [Implement abstraction using private methods](https://github.com/TheSaharFarahzad/bookstore/tree/v16)
+- [Add EBook subclass to demonstrate polymorphism in action](https://github.com/TheSaharFarahzad/bookstore/tree/v17)
 
 
 ## Cloning the Repository

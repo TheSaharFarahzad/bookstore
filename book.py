@@ -33,9 +33,9 @@ class Book:
     def calculate_total_price(self):
         return self.__price * self.quantity
 
-    def apply_discount(self, discount_rate: float):
-        if 0 <= discount_rate <= 1:
-            self.__price = self.__price * (1 - discount_rate)
+    def apply_discount(self):
+        if 0 <= self.discount_rate <= 1:
+            self.__price = self.__price * (1 - self.discount_rate)
         else:
             raise ValueError("Discount rate must be between 0 and 1.")
 
