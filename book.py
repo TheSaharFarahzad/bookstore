@@ -69,3 +69,20 @@ class Book:
             return True
         else:
             return False
+
+    def __connect(self, smtp_server):
+        pass
+
+    def __prepare_body(self):
+        return f"""  
+        Hello,  
+        We have {self.quantity} of {self.title} available.  
+        """
+
+    def __send(self):
+        pass
+
+    def send_email(self):
+        self.__connect("")
+        self.__prepare_body()
+        self.__send()

@@ -19,6 +19,7 @@ You can access each version of the code by clicking on the title below:
 - [Organizing code into multiple files](https://github.com/TheSaharFarahzad/bookstore/tree/v13)
 - [Add getter and setter for title attribute](https://github.com/TheSaharFarahzad/bookstore/tree/v14)
 - [Implement encapsulation to price attribute](https://github.com/TheSaharFarahzad/bookstore/tree/v15)
+- [Implement abstraction using private methods](https://github.com/TheSaharFarahzad/bookstore/tree/v16)
 
 
 ## Cloning the Repository
