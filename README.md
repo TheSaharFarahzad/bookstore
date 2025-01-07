@@ -1,5 +1,7 @@
-# bookstore
-Bookstore Management System: A Python project created as a practical example for my article on Python Object-Oriented Programming, published on Medium.
+# Bookstore
+
+**Bookstore Management System**: A Python project designed as a practical example for the Medium article:  
+[Python Object-Oriented Programming (OOP)](https://medium.com/@CodeWithSahar/python-object-oriented-programming-oop-caa011f95611)
 
 ## Code Versions
 You can access each version of the code by clicking on the title below:
